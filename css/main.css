@@ -1,0 +1,60 @@
+body{
+    background-color: #9fcdff;
+}
+.container{
+    background-image: url("/img/3.png");
+    max-width: 1112px;
+}
+title-h1{
+    font-size: 52px;
+}
+.shop-item{
+    height: 357px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.shop-item01{
+    border: 1px solid black;
+    background-image: url("/img/1.jpg");
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+
+
+}
+.sale{
+    font-size:14px;
+    background-color: #9fcdff;
+    color: #1c7430;
+    text-transform: uppercase;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.text-info{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    width:100%;
+    background-color: #0c5460;
+
+}
+.text-info .col-4{
+    text-align: right;
+
+}
+.text-info h3{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 0;
+
+}
+.text-info span{
+    font-size: 18px;
+    color: white;
+    border: 1.5px solid white;
+}
